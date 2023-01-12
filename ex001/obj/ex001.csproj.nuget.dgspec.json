@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\GB_Projects\\Examles\\ex001\\ex001.csproj": {}
+    "C:\\Users\\DC_IT\\Desktop\\test001\\ex001\\ex001.csproj": {}
   },
   "projects": {
-    "Y:\\GB_Projects\\Examles\\ex001\\ex001.csproj": {
+    "C:\\Users\\DC_IT\\Desktop\\test001\\ex001\\ex001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\GB_Projects\\Examles\\ex001\\ex001.csproj",
+        "projectUniqueName": "C:\\Users\\DC_IT\\Desktop\\test001\\ex001\\ex001.csproj",
         "projectName": "ex001",
-        "projectPath": "Y:\\GB_Projects\\Examles\\ex001\\ex001.csproj",
-        "packagesPath": "C:\\Users\\Dark\\.nuget\\packages\\",
-        "outputPath": "Y:\\GB_Projects\\Examles\\ex001\\obj\\",
+        "projectPath": "C:\\Users\\DC_IT\\Desktop\\test001\\ex001\\ex001.csproj",
+        "packagesPath": "C:\\Users\\DC_IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DC_IT\\Desktop\\test001\\ex001\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DC_IT\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
