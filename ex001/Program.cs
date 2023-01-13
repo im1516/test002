@@ -1,2 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("Islam Won");
+﻿Console.WriteLine ("enter you name");
+string username = Console.ReadLine();
+Console.Write("Салам,");
+Console.Write(username);
