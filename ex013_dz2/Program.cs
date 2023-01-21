@@ -105,8 +105,126 @@
 
 
 
-int n = new Random().Next(1,100);
+// int n = new Random().Next(1,100);
 
-if(n==1) Console.WriteLine($"В зале {n} программист");
-else if(n<5) Console.WriteLine($"В зале {n} программиста");
-else Console.WriteLine($"В зале {n} программистов");
+// if(n==1) Console.WriteLine($"В зале {n} программист");
+// else if(n<5) Console.WriteLine($"В зале {n} программиста");
+// else Console.WriteLine($"В зале {n} программистов");
+
+
+//таблица умножения
+
+// for(int i=2; i<=10; i++ )
+// {
+//     for (int j=2; j<=10; j++) Console.WriteLine($"{i}x{j}={i*j}");
+//     Console.WriteLine();
+// }
+
+
+
+// string text = "цыувцыувй вфыаафыафы фваывафывфыв dfasf asdfasfasf asfasfasf fasfasaf";
+
+
+// string Replace(string text,char oldValue, char newValue)
+// {
+//     string result = string.Empty;
+
+//     int length = text.Length;
+//     for (int i=0; i<length; i++)
+//     {
+//         if(text[i]== oldValue) result = result + $"{newValue}";
+//         else result = result + $"{text[i]}";
+//     }
+//     return result;
+
+// }
+// string newText = Replace(text,'ы', '@');
+// Console.WriteLine(newText);
+
+
+
+
+
+// int[] arr = { 1, 23, 34, 55, 1, 2, 7, 0, 3, 5 };
+
+// void PrintArray(int[] array)
+// {
+//     int count = array.Length;
+//     for (int i = 0; i < count; i++)
+//     {
+//         Console.Write($"{array[i]} ");
+//     }
+//     Console.WriteLine();
+// }
+
+// void SortArr(int[] array)
+// {
+//     for (int i = 0; i < array.Length - 1; i++)
+//     {
+//         int minPos = i;
+//         for (int j = i; j < array.Length; j++)
+//         {
+//             if (array[j] < array[minPos]) minPos = j;
+//         }
+//         int temp = array[i];
+//         array[i] = array[minPos];
+//         array[minPos] = temp;
+//     }
+
+// }
+
+// PrintArray(arr);
+// SortArr(arr);
+// PrintArray(arr);
+
+
+
+
+// int[] arr = { 1, 23, 34, 55, 1, 2, 7, 0, 3, 5 };
+
+// void PrintArray(int[] array)
+// {
+//     int count = array.Length;
+//     for (int i = 0; i < count; i++)
+//     {
+//         Console.Write($"{array[i]} ");
+//     }
+//     Console.WriteLine();
+// }
+
+// void SortArr(int[] array)
+// {
+//     for (int i = 0; i < array.Length - 1; i++)
+//     {
+//         int maxPos = i;
+//         for (int j = i; j < array.Length; j++)
+//         {
+//             if (array[j] > array[maxPos]) maxPos = j;
+//         }
+//         int temp = array[i];
+//         array[i] = array[maxPos];
+//         array[maxPos] = temp;
+//     }
+
+// }
+
+// PrintArray(arr);
+// SortArr(arr);
+// PrintArray(arr);
+
+
+
+
+//  Задача №17. Напишите программу, которая принимает на вход координаты точки (X и Y),
+//  причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
+
+
+Console.WriteLine("Введите координату X");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Y");
+int y = Convert.ToInt32(Console.ReadLine());
+if (x > 0 && y > 0) Console.WriteLine("Это четверть № 1");
+else if (x > 0 && y < 0) Console.WriteLine("Это четверть № 4");
+else if (x < 0 && y < 0) Console.WriteLine("Это четверть № 3");
+else if (x < 0 && y > 0) Console.WriteLine("Это четверть № 2");
+else Console.WriteLine("Точка лежит на оси");
