@@ -228,3 +228,30 @@
 
 
 
+// Задача 29: Напишите программу, которая задаёт массив из 8 целых чисел с клавиатуры и далее выводит массив на экран в одну строку.
+
+// int[] Arr = new int[8];
+// Console.WriteLine("Введите числа");
+// CreateArr(Arr);
+// PrintArr(Arr);
+
+// void CreateArr(int[] array)
+// {
+
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+
+// }
+// void PrintArr(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write($"{array[i]} ");
+//     }
+//     Console.WriteLine();
+// }
+
+
+

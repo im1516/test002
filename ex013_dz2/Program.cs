@@ -219,12 +219,14 @@
 //  причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
 
 
-Console.WriteLine("Введите координату X");
-int x = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Y");
-int y = Convert.ToInt32(Console.ReadLine());
-if (x > 0 && y > 0) Console.WriteLine("Это четверть № 1");
-else if (x > 0 && y < 0) Console.WriteLine("Это четверть № 4");
-else if (x < 0 && y < 0) Console.WriteLine("Это четверть № 3");
-else if (x < 0 && y > 0) Console.WriteLine("Это четверть № 2");
-else Console.WriteLine("Точка лежит на оси");
+// Console.WriteLine("Введите координату X");
+// int x = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите координату Y");
+// int y = Convert.ToInt32(Console.ReadLine());
+// if (x > 0 && y > 0) Console.WriteLine("Это четверть № 1");
+// else if (x > 0 && y < 0) Console.WriteLine("Это четверть № 4");
+// else if (x < 0 && y < 0) Console.WriteLine("Это четверть № 3");
+// else if (x < 0 && y > 0) Console.WriteLine("Это четверть № 2");
+// else Console.WriteLine("Точка лежит на оси");
+
+
