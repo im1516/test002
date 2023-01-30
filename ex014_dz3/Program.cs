@@ -91,3 +91,5 @@
 // for(int x = 1;x <=N; x++ )
 
 // Console.Write($" {(x*x)*x}"); 
+
+
