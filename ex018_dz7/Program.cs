@@ -347,12 +347,12 @@ void PrintArray(int[,] array)
 
 void AverageSumm(int[,] array)
 {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         double summ = 0;
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-            summ = (summ + array[i, j]);
+            summ = (summ + array[j,i]);
         }
         summ = summ / rows;
         Console.WriteLine($"Сумма столбцов равна:{summ}");
